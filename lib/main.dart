@@ -45,9 +45,9 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => NavigationBloc(),
         ),
-        BlocProvider(
-          create: (context) => AuthBloc(),
-        ),
+        // BlocProvider(
+        //   create: (context) => AuthBloc(),
+        // ),
       ],
       child: Container(),
     );

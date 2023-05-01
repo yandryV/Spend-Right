@@ -21,3 +21,8 @@ class OnConfirmPasswordChange extends AuthEvent {
 class OnLoginRequestWithEmail extends AuthEvent {}
 
 class OnSignInRequestWithEmail extends AuthEvent {}
+
+//TODO: IMPLEMENTAR login con google acc
+
+class OnLoginSuccess extends AuthEvent {}
+// class OnLoginRequest extends AuthEvent {}
