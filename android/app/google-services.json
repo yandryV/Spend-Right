@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "790288022513",
+    "firebase_url": "https://spend-right.firebaseio.com",
     "project_id": "spend-right",
     "storage_bucket": "spend-right.appspot.com"
   },

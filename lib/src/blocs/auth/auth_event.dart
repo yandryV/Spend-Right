@@ -22,6 +22,12 @@ class OnLoginRequestWithEmail extends AuthEvent {}
 
 class OnSignInRequestWithEmail extends AuthEvent {}
 
+class OnUpdateUserInformation extends AuthEvent {
+  final UserModel user;
+  final File? photo;
+  OnUpdateUserInformation(this.user, this.photo);
+}
+
 //TODO: IMPLEMENTAR login con google acc
 
 class OnLoginSuccess extends AuthEvent {}

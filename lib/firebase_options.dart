@@ -52,6 +52,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '790288022513',
     projectId: 'spend-right',
     authDomain: 'spend-right.firebaseapp.com',
+    databaseURL: 'https://spend-right.firebaseio.com',
     storageBucket: 'spend-right.appspot.com',
   );
 
@@ -60,6 +61,7 @@ class DefaultFirebaseOptions {
     appId: '1:790288022513:android:82eccadf83c0819771e250',
     messagingSenderId: '790288022513',
     projectId: 'spend-right',
+    databaseURL: 'https://spend-right.firebaseio.com',
     storageBucket: 'spend-right.appspot.com',
   );
 
@@ -68,6 +70,7 @@ class DefaultFirebaseOptions {
     appId: '1:790288022513:ios:de256ff71190678f71e250',
     messagingSenderId: '790288022513',
     projectId: 'spend-right',
+    databaseURL: 'https://spend-right.firebaseio.com',
     storageBucket: 'spend-right.appspot.com',
     iosClientId: '790288022513-6706ci9tnbeckvijpeaaa3eoo3e7ejng.apps.googleusercontent.com',
     iosBundleId: 'com.example.spendRight',

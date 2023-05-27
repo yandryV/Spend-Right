@@ -23,7 +23,7 @@
         "name": "Android",
         "request": "launch",
         "type": "dart",
-        "deviceId": "emulator-5554"
+        // "deviceId": "Pixel_3a_API_30"
       }
     ],
     "compounds": [
