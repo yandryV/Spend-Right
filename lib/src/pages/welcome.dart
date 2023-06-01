@@ -132,7 +132,7 @@ class _WelcomePageState extends State<WelcomePage> with WidgetsBindingObserver {
         onPressed: () {
           context
               .read<NavigationBloc>()
-              .add(NavigateToPage("/transaction-home", "pushReplacementNamed"));
+              .add(NavigateToPage("/budget-screen", "pushReplacementNamed"));
         },
       ),
     );

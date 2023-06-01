@@ -104,12 +104,10 @@ class TransactionHome extends StatelessWidget {
                                 ),
                                 IconButton(
                                     onPressed: () {
-                                      Navigator.pushNamed(
-                                        context,
-                                        '/chart',
-                                        arguments:
-                                            categoryLabel, // Pasa la categoría seleccionada como argumento
-                                      );
+                                      // Navigator.pushNamed(
+                                      //   context,
+                                      //   '/chart',
+                                      // );
                                     },
                                     icon: Icon(Icons.bar_chart_outlined,
                                         color: _categoryColors[categoryLabel] ??
