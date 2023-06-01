@@ -221,6 +221,63 @@ final Map<String, Color> categoryColors = {
   'Otros gastos': Colors.grey,
 };
 
+final List<Map<String, int>> categoriesLimit = [
+  {
+    'Alimentos': 0,
+  },
+  {
+    'Transporte': 0,
+  },
+  {
+    'Vivienda': 0,
+  },
+  {
+    'Entretenimiento': 0,
+  },
+  {
+    'Salud y cuidado personal': 0,
+  },
+  {
+    'Educación': 0,
+  },
+  {
+    'Facturas y servicios públicos': 0,
+  },
+  {
+    'Compras': 0,
+  },
+  {
+    'Ahorro e inversión': 0,
+  },
+  {
+    'Deudas y préstamos': 0,
+  },
+  {
+    'Viajes y vacaciones': 0,
+  },
+  {
+    'Regalos y donaciones': 0,
+  },
+  {
+    'Seguros': 0,
+  },
+  {
+    'Impuestos': 0,
+  },
+  {
+    'Mascotas': 0,
+  },
+  {
+    'Niños y familia': 0,
+  },
+  {
+    'Negocios y emprendimiento': 0,
+  },
+  {
+    'Otros gastos': 0,
+  },
+];
+
 final Map<String, List<String>> categoryKeywords = {
   'Alimentos y bebidas': [
     'comida',
@@ -378,4 +435,3 @@ final Map<String, List<String>> categoryKeywords = {
   ],
   'Otros gastos': ['otros', 'gastos', 'varios', 'misceláneos'],
 };
-

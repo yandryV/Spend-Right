@@ -6,9 +6,9 @@ import 'package:spend_right/firebase_options.dart';
 import 'package:spend_right/src/blocs/auth/auth_bloc.dart';
 import 'package:spend_right/src/blocs/navigation/navigation_bloc.dart';
 import 'package:spend_right/src/helpers/preferences.dart';
-import 'package:spend_right/src/models/chart_model.dart';
 import 'package:spend_right/src/models/user_model.dart';
 import 'package:spend_right/src/pages/auth/login.dart';
+import 'package:spend_right/src/pages/budget/budget_screen.dart';
 import 'package:spend_right/src/pages/navigation/navigation_page.dart';
 import 'package:spend_right/src/pages/transactions/graphs_screen.dart';
 import 'package:spend_right/src/pages/transactions/transactions.dart';
@@ -74,6 +74,7 @@ class MyApp extends StatelessWidget {
               const TransactionDetailPage()),
           '/user-profile': ((BuildContext context) => const UserProfile()),
           '/chart': ((BuildContext context) =>  const GraphScreen()),  
+          '/budget-screen': ((BuildContext context) => const BudgetScreen()),  
         },
         theme: ThemeData(
             colorScheme: const ColorScheme(
